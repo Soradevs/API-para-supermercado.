@@ -26,9 +26,10 @@ Corpo: Campos opcionais `nome`, `preco`, `marca`**
 **Método: `DELETE /produtos/:id`  
 Descrição: Remove um produto pelo ID.**
 
-## Erros
+## Erros:
 
 **404 Not Found : Produto não encontrado.** 
+
 **400 Bad Request: Dados de entrada inválidos.**
 ##
 ![](https://cdn-icons-png.flaticon.com/512/2164/2164832.png)
