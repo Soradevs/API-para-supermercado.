@@ -1,0 +1,25 @@
+{
+  "name": "supermarket",
+  "version": "1.0.0",
+  "description": "Esta API permite gerenciar produtos em um supermercado",
+  "main": "app.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/server.ts",
+    "build-and-start": "npm run build && node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "fastify": "^5.0.0",
+    "mongoose": "^8.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "nodemon": "^3.1.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
